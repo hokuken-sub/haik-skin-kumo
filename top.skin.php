@@ -73,8 +73,8 @@
 
 </div>
 
-<div id="licence">
-	#{$licence_tag}
+<div id="license">
+	#{$license_tag}
 </div>
 
 #{$admin_nav}
