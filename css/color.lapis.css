@@ -205,15 +205,22 @@ fieldset[disabled] #orgm_navbar .btn-navbar.active {
   color: inherit;
 }
 .alert-theme {
-  background-color: #386ada;
-  border-color: #275bd1;
-  color: #030710;
+  background-color: #0f2350;
+  border-color: #0f2350;
+  color: #eeeeee;
+  text-shadow: none;
 }
 .alert-theme a {
-  color: #17367b;
+  color: #eeeeee;
 }
-.alert-theme h4 {
-  color: #030710;
+.alert-theme a:hover {
+  color: #eeeeee;
+}
+.alert-theme .close {
+  color: #071025;
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  text-shadow: none;
 }
 .btn-group.open .btn-theme.dropdown-toggle {
   background-color: #071025;
@@ -259,23 +266,8 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-heading .panel-title {
   line-height: 1.1;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 a {
   color: #17367b;
@@ -297,22 +289,8 @@ a:focus {
 .marketing .page-header h1 {
   color: #0f2350;
 }
-.alert.alert-theme {
-  text-shadow: none;
-}
-.alert.alert-theme a {
-  color: #a3baee;
-  text-shadow: none;
-  text-decoration: underline;
-}
-.alert.alert-theme a:hover {
-  color: #eeeeee;
-}
 .alert.alert-theme .close {
   color: #555555;
-  opacity: 100;
-  filter: alpha(opacity=10000);
-  text-shadow: none;
 }
 .table tr.theme td {
   color: #ffffff;

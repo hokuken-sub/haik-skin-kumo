@@ -205,15 +205,22 @@ fieldset[disabled] #orgm_navbar .btn-navbar.active {
   color: inherit;
 }
 .alert-theme {
-  background-color: #3c3c3c;
-  border-color: #2a2a2a;
-  color: #ffffff;
+  background-color: #000000;
+  border-color: #272727;
+  color: #999999;
+  text-shadow: none;
 }
 .alert-theme a {
-  color: #222222;
+  color: #999999;
 }
-.alert-theme h4 {
-  color: #ffffff;
+.alert-theme a:hover {
+  color: #eeeeee;
+}
+.alert-theme .close {
+  color: #000000;
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  text-shadow: none;
 }
 .btn-group.open .btn-theme.dropdown-toggle {
   background-color: #080808;
@@ -259,23 +266,8 @@ fieldset[disabled] .btn-theme.active {
 #contents .panel-heading .panel-title {
   line-height: 1.1;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 #logo a.navbar-brand {
   color: #222222;
@@ -288,22 +280,8 @@ fieldset[disabled] .btn-theme.active {
 .marketing .page-header h1 {
   color: #222222;
 }
-.alert.alert-theme {
-  text-shadow: none;
-}
-.alert.alert-theme a {
-  color: #999999;
-  text-shadow: none;
-  text-decoration: underline;
-}
-.alert.alert-theme a:hover {
-  color: #eeeeee;
-}
 .alert.alert-theme .close {
   color: #555555;
-  opacity: 100;
-  filter: alpha(opacity=10000);
-  text-shadow: none;
 }
 .table tr.theme td {
   color: #ffffff;

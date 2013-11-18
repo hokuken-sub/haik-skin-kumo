@@ -11,15 +11,22 @@
 }
 
 .alert-theme {
-  background-color: @themeBackground;
-  border-color: @themeBorder;
-  color: @themeText;
-}
-
-.alert-theme a {
-	color: @linkColor;
-}
-
-.alert-theme h4 {
-  color: @themeText;
+	background-color: @navbarBackground;
+	border-color: @navbarBorder;
+	color: @navbarText;
+	text-shadow: none;
+	
+	a {
+		color: @navbarText;
+	}
+	
+	a:hover {
+		color: @grayLighter;
+	}
+	
+	.close {
+		color: darken(@navbarBackground, 10%);
+		.opacity(100);
+		text-shadow: none;
+	}
 }
