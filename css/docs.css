@@ -223,6 +223,11 @@ body {
 	background-color: transparent;
 }
 
+#orgm_menu .nav>li>a:hover,
+#orgm_menu .nav>li>a:focus {
+	background-color: transparent;
+}
+
 
 .footer {
 	padding-bottom: 30px;
