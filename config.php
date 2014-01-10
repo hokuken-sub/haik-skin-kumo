@@ -17,10 +17,6 @@ $config = array(
 		),
 	),
 	'default_template' => 'top',
-	'eyecatch'   => array(
-		'wrap' => 'eyecatch.wrap.php',
-		'item' => 'eyecatch.item.php',
-	),
 	'colors' => array(
 		'black'          => 'css/color.black.css',
 		'brown'          => 'css/color.brown.css',
